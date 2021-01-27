@@ -76,8 +76,8 @@ const float SHFTSTEP = 0.05f; // view shift step
 const float MINSCALE = 0.02f;
 const float MINRADIUS = 0.5f;
 const float MINHEIGHT = 30.f;
-const std::string DATA_FILE = "../../../Breast Tumor Descriptors/Data/Input_AllTCIA.csv";
-const std::string ID_FILE = "../../../Breast Tumor Descriptors/Data/Input_IDs_Test.csv";
+const std::string DATA_FILE = "./Input_AllTCIA.csv";
+const std::string ID_FILE = "./Input_IDs_Test.csv";
 //Input_IDs_Age 20s-30s.csv   Input_IDs_HER2 Pos   Input_IDs_HR Pos-HER2 Neg     Input_IDs_Triple Neg
 const float RFS_SCALE = 1.f;  //TODO If this is used, update the total height, T1rows, T2Rows,...,  and scale factor  
 const float FTV_SCALE = 1.f;  //TODO If this is used, update the total height, T1rows, T2Rows,...,  and scale factor  
